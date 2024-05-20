@@ -26,6 +26,13 @@ import java.util.Optional;
 
 /**
  * NamedParameterJdbcTemplate
+ * SqlParameterSource
+ * - BeanPropertySqlParameterSource
+ * - MapSqlParameterSource
+ * Map
+ *
+ * BeanPropertyRowMapper
+ *
  */
 @Slf4j
 public class JdbcTemplateItemRepositoryV2 implements ItemRepository {
